@@ -1,8 +1,13 @@
+html {
+  font-size: 16px;
+}
+
 /* type selector*/
 header {
-  background-color: gray;
+  background-color: #c7c4c1;
   color: brown;
   text-align: center;
+  font-size: 2em;
 }
 
 header p {
@@ -15,8 +20,8 @@ p {
 
 img {
   border-radius: 30%;
-  width: 1000px;
-  height: 700px;
+  width: 70%;
+  margin-bottom: 3em;
 }
 
 img:hover {
@@ -49,14 +54,14 @@ ol li {
 }
 
 ol li:first-child {
-  color: tomato;
+  color: rgba(255, 180, 0, 0.3);
   font-size: 50px;
   font-weight: bold;
 }
 
 /* id selector */
 #email {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 #special {
